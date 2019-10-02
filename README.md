@@ -1,5 +1,5 @@
-# Python Regex Cheatsheet
-Reference guide to regular expressions in Python.
+# Python Regular Expression Cheatsheet
+Reference guide for regular expressions in Python.
 
 ## Common Tokens
 | Regex | Description |
