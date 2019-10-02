@@ -1,4 +1,5 @@
 # Python Regular Expression Cheatsheet
+Python 3 cheatsheet for regular expressions using the `re` module.
 
 ## Common Tokens
 | Regex | Description |
@@ -21,7 +22,7 @@
 | **a\***| Match zero or more consecutive "a" characters |
 | **a+** | Match one or more consecutive "a" characters |
 | **a{3}** | Match exactly 3 consecutive "a" characters |
-
+| **a{3,}** | Match at least 3 consecutive "a" characters |
 
 ## General Tokens
 
