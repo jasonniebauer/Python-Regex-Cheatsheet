@@ -23,6 +23,11 @@ Python 3 cheatsheet for regular expressions using the `re` module.
 | **a+** | Match one or more consecutive "a" characters |
 | **a{3}** | Match exactly 3 consecutive "a" characters |
 | **a{3,}** | Match at least 3 consecutive "a" characters |
+| **a{3,6}** | Match between 3 and 6 (inclusive) consecutive "a" characters |
+| **^** | Match the start of a string without consuming any characters. If multiline mode is used, this will also match immediately after a newline character. |
+| **$** | Match the end of a string without consuming any characters. If multiline mode is used, this will also match immediately before a newline character. |
+| **\b** | Match, without consuming any characters, immediately between a character matched by \w and a character not matched by \w (in either order). It cannot be used to separate non words from words. |
+| **\B** | Match, without consuming any characters, at the position between two characters matched by \w. |
 
 ## General Tokens
 
